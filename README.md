@@ -18,3 +18,7 @@ The goal is to predict the sales price for each house. For each Id in the test s
 
 ## **Metric**
 Submissions are evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. (Taking logs means that errors in predicting expensive houses and cheap houses will affect the result equally.)
+
+## **Tech Stack**
+1. Python
+2. Jupyter Notebooks
