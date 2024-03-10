@@ -8,13 +8,13 @@ Using linear regression, HomeValue Pro calculates the optimal coefficients for e
 
 Whether you're looking to sell, buy, or invest in real estate, trust HomeValue Pro to provide you with reliable price predictions, empowering you to make informed decisions in today's dynamic housing market. Welcome to a smarter way of navigating the world of real estate with HomeValue Pro.
 
-**#Features of the project**
+## **Features of the project**
 
 1. Creative feature engineering 
 2. Advanced regression techniques like random forest and gradient boosting
 
-**#Goal**
+## **Goal**
 The goal is to predict the sales price for each house. For each Id in the test set, the model will predict the value of the SalePrice variable.
 
-**#Metric**
+## **Metric**
 Submissions are evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. (Taking logs means that errors in predicting expensive houses and cheap houses will affect the result equally.)
